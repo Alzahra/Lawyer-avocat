@@ -1,0 +1,114 @@
+#header{
+  position: fixed;
+  background-color: #e2e1e1;
+  width: 100%;
+  height: 80px ;
+  font: 1.0em Georgia ;
+}
+
+#logo a {
+  display: block ;
+  float:left;
+  padding-top: 15px;
+  color:#000000;
+  text-decoration: none;
+  font-size: 25px ;
+}
+
+#nav
+{
+  display: block;
+  float: right;
+  padding-top: 15px;
+ height: 25px ;
+ position: right;
+ list-style-type: none ;
+ text-align: center ;
+}
+
+#nav li
+{
+  float: left ;
+  padding-right: 20px;
+}
+
+#nav li a
+{
+display: block ;
+ text-align: center ;
+ font-size: 0.9em ;
+ font-weight: bold ;
+ color: #383838 ;
+ text-decoration: none;
+}
+
+ul#menu li a:hover
+{
+ background-color:#E6E6FA;
+}
+
+#footer{
+  font: 1.0em Georgia ;
+  background-color: #e2e1e1;
+  width=100%
+  font-size: 0.8em ;
+  text-align: center;
+  color: black;
+  clear:left;
+  padding-bottom: 5px;
+}
+
+#container{
+    padding-top: 76px;
+    width=100%
+}
+
+body {
+    background-color: #ffffff;
+     display: block ;
+     margin: 0 0 ;
+     padding: 0 ;
+     background: ;
+     background-size: cover ;
+}
+
+p {
+    font-size: 32px;
+    text-align:center;
+    color:black;
+  }
+
+#page1{
+    height: 500px;
+    background-color: #FFEBCD;
+  }
+
+#page2{
+      height: 500px;
+      background-color: #F0F8FF;
+}
+
+#page3{
+      height: 500px;
+      background-color: #FF7F50;
+}
+
+#page4{
+      height: 500px;
+      background-color: #E6E6FA;
+}
+
+#page5{
+      height: 500px;
+      background-color: #FFB6C1;
+}
+
+#page6{
+      height: 500px;
+      background-color: #B0C4DE;
+}
+
+#page7{
+      height: 500px;
+      background-color: #AFEEEE;
+}
