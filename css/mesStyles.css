@@ -1,0 +1,235 @@
+/*html { 
+  margin:0;
+  padding:0;
+  background: url(http://www.melliti-makki-avocat.fr/upload/slider/slide3.jpg) no-repeat center fixed; */
+  /*-webkit-background-size: cover;*/ /* pour anciens Chrome et Safari */
+  /*background-size: cover;*/ /* version standardisée */
+/*}*/
+
+
+body {
+    display: block ;
+    margin: 0 0 ;
+    padding: 0 0.1% ;
+    /*background:url(http://www.melliti-makki-avocat.fr/upload/slider/slide3.jpg) no-repeat center fixed;
+    background-size: cover;*/
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header1{
+  position:absolute;
+  background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+  width: 99.9%;
+  height: auto;
+  font: 1.0em Georgia ;
+}
+
+#header{
+  position : fixed;
+  background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+  width: 99.9%;
+  height: auto;
+  font: 1.0em Georgia ;
+
+}
+
+#logo a {
+  display: block ;
+  float:left;
+  padding: 1% 1% 0 1%;
+  color:#000000;
+  text-decoration: none;
+   font-size: 1.5em;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#heure {
+  display: block ;
+  float:right;
+  padding: 0% 1% 0 1%;
+  margin-top: 1.5%;
+  color:#000000;
+  border: 1px solid;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav
+{
+  /*position : fixed;*/
+  display: block;
+  float: left;
+  padding: 0 0;
+  height: 5% ;
+  width: 100%;
+  list-style-type: none ;
+  text-align: center ;
+}
+
+/*Adaptabilité de l'image pour tous les écrans */
+img.superbg {
+  left: 0;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -999;
+}
+
+
+#nav li
+{
+  float: left ;
+  padding-right:2.5%;
+  list-style-type: none;
+}
+
+#nav li a
+{
+display: block ;
+ text-align: center ;
+ font-size: 0.9em ;
+ font-weight: bold ;
+ color: #383838 ;
+ text-decoration: none;
+}
+
+#nav li a:hover
+{
+ background-color:#E6E6FA;
+}
+
+.active {
+    font-family:'Droid Sans', serif;
+    font-size: 14px;
+    background-color: hsla(1,100%,100%,0.3);
+    text-decoration: none;
+    line-height: 50px;
+    border-radius: 14px;
+    margin: 0 -7%;
+}
+
+#container{
+    padding: 10% 0 0 0;
+    width=99%;   
+}
+
+.citation{
+  font-family: 'Segoe UI', sans-serif;
+  font-style: italic;
+  padding: 0 0 0 3%;
+}
+
+.auteur{
+  font-weight: bold;
+  padding: 0 0 0 5% ;
+}
+
+.livre{
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 0 0 7% ;
+}
+
+p {
+    font-size: 1em;
+    text-align:center;
+    color:black;
+  }
+
+ p.rind{
+  text-align: left;
+  text-indent: 2%;
+ } 
+
+h2{
+  text-align :center;
+}
+
+h3,h4{
+  text-indent: 1%;
+}
+
+
+ul {
+  padding:0 5%;
+}
+li{
+
+  list-style-type: upper-roman;
+}
+
+.caps{
+  text-align :center;
+}
+
+
+#imagerue {
+    height: auto;
+    border-radius: 14px;
+    
+}
+#page1{
+    height: auto;
+    padding: 7% 0.5% 0 1%;
+   background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+  }
+
+#page2{
+      height: auto;
+    padding: 0 0.5% 0 1%;
+      background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+}
+
+#page3{
+     height: auto;
+     padding: 0 0.5% 0 1%;
+      background-color:hsla(1,100%,100%,0);
+  border-radius: 14px;
+}
+
+#page4{
+      height: auto;
+     padding: 0 0.5% 1% 1%;
+      background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+}
+
+#page5{
+      height: auto;
+    padding: 0 0.5% 1% 1%;
+      background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+}
+
+#page6{
+      height: auto;
+     padding: 0 0.5% 1% 1%;
+     background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+}
+
+#page7{
+       height: auto;
+     padding: 0 0.5% 1% 1%;
+      background-color:hsla(1,100%,100%,0);
+  border-radius: 14px;
+}
+
+#footer{
+  font: 1.0em Georgia ;
+ background-color: hsla(1,100%,100%,0);
+  border-radius: 14px;
+  width=100%;
+  font-size: 0.8em ;
+  text-align: center;
+  color: black;
+  
+  padding-bottom: 3%;
+}
